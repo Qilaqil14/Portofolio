@@ -1,6 +1,5 @@
 body {
   font-family: "Manrope", sans-serif;
-  height: 2000px;
 }
 .navbar {
   transform: translateX(195%) translateY(0px) translateZ(0px);
@@ -14,13 +13,9 @@ body {
 }
 .home h1 {
   font-size: 3rem;
-  font-family: "Permanent Marker", cursive;
 }
 .home p {
   font-size: 1.5rem;
-}
-.galeri {
-  background: linear-gradient(#fff, #caedff, #fff);
 }
 .col-1 a {
   padding: 1rem;
