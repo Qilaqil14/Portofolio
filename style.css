@@ -2,9 +2,8 @@ body {
   font-family: "Manrope", sans-serif;
 }
 .navbar {
-  /* transform: translateX(195%); */
   left: 50%;
-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 .home img {
   width: 15rem;
