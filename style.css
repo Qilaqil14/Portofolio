@@ -1,16 +1,37 @@
 body {
   font-family: "Manrope", sans-serif;
+  background-color: var(--main);
+  font-weight: bold;
+}
+:root{
+  --main: #b8c1ec;
+  --background: #232946;
+  --button: #eebbc3;
+  --text: #fffffe;
+  --border: #121629;
 }
 .navbar {
   left: 50%;
   transform: translateX(-50%);
+  background-color: var(--button);
+  opacity: 70%;
+}
+.navbar-nav a{
+  color: var(--background);
+  font-weight: bold;
+  border-radius: 0.3rem;
+}
+.navbar-nav a:hover{
+  background-color: var(--background);
+  color: var(--text);
 }
 .home img {
   width: 15rem;
   margin-top: 5rem;
 }
 .home {
-  background: linear-gradient(#caedff, #fff);
+  background-color: var(--background);
+  color: var(--text);
 }
 .home h1 {
   font-size: 3rem;
@@ -18,9 +39,30 @@ body {
 .home p {
   font-size: 1.5rem;
 }
+.btn{
+  background-color: var(--button);
+  color: var(--background);
+  border: 0.3rem solid var(--border);
+}
+.btn:hover{
+  border: 0.3rem solid var(--border);
+  color: var(--text);
+}
 .col-1 a {
   padding: 1rem;
-  background-color: #caedff;
-  color: #1a1c22;
-  border-radius: 100%;
+  background-color: var(--button);
+  color: var(--background);
+  border-radius: 0.5rem;
+  border: 0.4rem solid var(--border);
+}
+.col-1 a:hover{
+  color: var(--text);
+  background-color: var(--background);
+  border: 0.3rem solid var(--border);
+}
+
+.footer{
+  background-color: var(--background);
+  color: var(--text);
+  font-size: large;
 }
